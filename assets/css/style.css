@@ -50,7 +50,8 @@ section h1 {
     border-bottom: 3px solid var(--primary-color);
     justify-content: center;
     display: flex;
-    margin: 0 35%;
+    margin: 0 0 0 10px;
+    float: left;
 }
 
 .section-border {
@@ -91,7 +92,7 @@ section h1 {
 
  .specs-list li {
      border-bottom: 2px solid var(--primary-color);
-     margin: 10px 0 0 150px;
+     margin: 10px 0 10px 100px;
  }
 
 .community p {
@@ -104,4 +105,25 @@ section h1 {
 .community div {
     display: flex;
     justify-content: space-evenly;
+}
+
+footer {
+    background-image: url("../img/modifire-banner.png");
+    background-position: center bottom ;
+    background-size: cover;
+    color: white;
+}
+
+.contact-info {
+    text-align: center;  
+}
+
+.contact-info p {
+    font-size: 18px;
+    border-bottom: 1px solid var(--primary-color);
+    margin: 0 45%;
+}
+
+.contact-info address a {
+    color: var(--primary-color);
 }
