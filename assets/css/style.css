@@ -15,20 +15,14 @@ header {
     flex-wrap: wrap;
 }
 
-header p {
-    font-size: 32px;
-    color: white;
-    font-weight: bold;
-    padding: 50px;
-    text-align: left;
+header nav {
+    margin: auto auto;
+    padding: auto 30px;
 }
 
-
 header nav ul {
-    gap: 100px;
-    padding: 50px;
+    gap: 200px;
     display: flex;
-    align-items: left;
 }
 
 header nav li  {
@@ -43,40 +37,73 @@ header nav a {
     text-align: left;
 }
 
+header p {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    padding: auto;
+    margin: 30px 30px;
+    text-align: left;
+}
+
 section h1 {
     font-size: 50px;
     font-weight: bold;
     border-right: 3px solid var(--primary-color);
-    margin: 10px 50px;
+    margin: 30px 30px;
+    padding: 0 30px 0 0;
     float: left;
 }
 
 .aboutme p {
     font-size: 24px;
-    padding: 10px;
-    margin: 10px 30px;
     display: flex;
+    margin: 30px 30px;
 }
 
-.links {
-    margin: 10px 30px;
-    position: relative;
+.links h1{
+    margin: 200px 30px 30px 120px;
+}
+
+.link {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .banner {
-    max-width: 1000px;
-    max-height: 1000px;
+    margin: 30px 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    padding: 30px 30px;
+    grid-gap: 30px;
+}
+
+.banner-img {
+    max-width: 800px;
+    max-height: 800px; 
 }
 
 .social {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
 }
 
-.links div a {
-    display: grid;
-    grid-template-columns: auto auto;
+.contact h1 {
+    font-size: 50px;
+    font-weight: bold;
+    border-right: 3px solid var(--primary-color);
+    margin: 30px 30px 30px 30px;
+    padding: 0 30px 0 0;
+    float: left;
 }
+
+.contact address {
+    display: flex;
+}
+
+
+
