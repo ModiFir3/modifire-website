@@ -50,60 +50,86 @@ section h1 {
     font-size: 50px;
     font-weight: bold;
     border-right: 3px solid var(--primary-color);
-    margin: 30px 30px;
-    padding: 0 30px 0 0;
+    padding: 50px 30px;
     float: left;
+}
+
+.aboutme h1 {
+    margin: 0 30px 0 40px;
 }
 
 .aboutme p {
     font-size: 24px;
     display: flex;
-    margin: 30px 30px;
+    margin: 50px 30px;
 }
 
 .links h1{
-    margin: 200px 30px 30px 120px;
+    margin: 200px 30px 0 130px;
 }
 
 .link {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-.banner {
+.banner img  {
     margin: 30px 30px;
 }
 
 .grid {
     display: grid;
     grid-template-columns: auto auto;
-    margin: auto;
-    padding: 30px 30px;
+    align-items: center;
     grid-gap: 30px;
 }
 
 .banner-img {
-    max-width: 800px;
-    max-height: 800px; 
+    max-width: 1000px;
+    max-height: 1000px; 
 }
 
 .social {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 .contact h1 {
     font-size: 50px;
     font-weight: bold;
     border-right: 3px solid var(--primary-color);
-    margin: 30px 30px 30px 30px;
-    padding: 0 30px 0 0;
+    margin: 0 30px 0 0;
+    padding: 50px 30px;
     float: left;
 }
 
 .contact address {
     display: flex;
+    gap: 300px;
+   justify-content: center;
+   margin: 30px 0;
 }
 
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.email p {
+    margin: 40px 0;
+    font-size: 64px;
+}
+
+.email a {
+    margin: 60px 0;
+    font-size: 24px;
+}
+
+.tele {
+    display: flex;
+    align-items: center;
+}
 
 
