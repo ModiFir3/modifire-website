@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden
 }
 
 header {
@@ -75,6 +76,8 @@ section h1 {
     justify-content: center;
 }
 
+
+
 .banner img  {
     margin: 30px 30px;
 }
@@ -84,6 +87,14 @@ section h1 {
     grid-template-columns: auto auto;
     align-items: center;
     grid-gap: 30px;
+}
+
+.grid a {
+    opacity: .5;
+}
+
+.grid a:hover {
+    opacity: 1;
 }
 
 .banner-img {
@@ -119,7 +130,6 @@ section h1 {
 
 .email, .tele {
     border-bottom: 3px solid var(--primary-color);
-    margin-bottom: ;
 }
 
 .email a, .tele a {
@@ -127,6 +137,84 @@ section h1 {
     color: var(--secondary-color);
 }
 
-@media screen and () {
+@media screen and (max-width: 768px) {
+   section h1 {
+       float: none;
+       border-right: none;
+       border-bottom: 1px solid var(--primary-color);
+       text-align: center;
+   }
+
+   .aboutme  h1{
+       margin: 0;
+       padding: 0;
+   }
+
+   .links h1 {
+       margin: 0;
+       padding: 0;
+   }
+
+   .banner-img {
+    max-width: 500px;
+    max-height: 500px; 
+    }
+
+    .social {
+    max-width: 350px;
+    max-height: 350px;
+    }
+
+    .contact h1 {
+        float: none;
+        border-right: none;
+        border-bottom: 1px solid var(--primary-color);
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact address {
+        font-size: 32px;
+        display: block;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0 20%;
+    }
+   
+}
+
+@media screen and (max-width: 390px) {
+    header p {
+        text-align: center;
+        margin: 19px;
+        padding: 0;
+        border-bottom: 3px solid var(--primary-color);
+    }
+
+    header nav ul{
+        display: block;
+        font-size: 12px;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .aboutme p {
+        font-size: 16px;
+    }
+
+    .banner-img {
+        max-width: 300px;
+        max-height: 300px; 
+    }
     
+    .social {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .contact address {
+        font-size: 24px;
+    }
 }
